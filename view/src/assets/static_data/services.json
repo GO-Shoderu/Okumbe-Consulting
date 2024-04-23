@@ -1,0 +1,68 @@
+{
+  "services": [
+    {
+      "name": "Tendering",
+      "description": [
+        "Assisting clients in the preparation and submission of tender documents.",
+        "Providing guidance on tendering procedures and requirements.",
+        "Evaluating tender submissions and recommending suitable bids."
+      ]
+    },
+    {
+      "name": "Claims",
+      "description": [
+        "Assessing and managing contractual claims.",
+        "Providing expert advice on dispute resolution.",
+        "Ensuring fair resolution to protect client interests."
+      ]
+    },
+    {
+      "name": "Final Accounts",
+      "description": [
+        "Analyzing project costs.",
+        "Ensuring that all financial transactions related to the project are properly accounted for.",
+        "Providing comprehensive reports and documentation for project completion."
+      ]
+    },
+    {
+      "name": "Preparation of Bill of Quantities",
+      "description": [
+        "Detailing project resources.",
+        "Facilitating accurate cost estimation and budgeting for the project.",
+        "Enhancing transparency and clarity in project specifications and requirements."
+      ]
+    },
+    {
+      "name": "Feasibility Studies",
+      "description": [
+        "Evaluating project viability.",
+        "Assessing technical and financial aspects.",
+        "Providing valuable insights to help clients make informed decisions about project viability."
+      ]
+    },
+    {
+      "name": "Viability Studies",
+      "description": [
+        "Evaluating the financial viability and potential profitability of construction projects.",
+        "Assessing factors such as market demand, return on investment, and risk analysis.",
+        "Identifying project opportunities."
+      ]
+    },
+    {
+      "name": "Pre-contract estimates",
+      "description": [
+        "Providing cost projections.",
+        "Supporting budget planning.",
+        "Ensuring that clients have realistic expectations regarding project costs and timelines."
+      ]
+    },
+    {
+      "name": "Mediation and Arbitration",
+      "description": [
+        "Facilitating dispute resolution.",
+        "Representing clients in legal proceedings.",
+        "Advocating for fair and equitable outcomes to protect the interests of all parties involved."
+      ]
+    }
+  ]
+}

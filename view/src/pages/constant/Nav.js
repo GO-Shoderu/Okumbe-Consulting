@@ -2,8 +2,8 @@ import "./Nav.css";
 
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg py-3">
-      <div className="container-fluid mx-5">
+    <nav className="navbar navbar-expand-lg py-3 sticky-top bg-light">
+      <div className="container-fluid mx-xl-5">
         <a href="./" className="navbar-brand">
           OKUMBE CONSULTING
         </a>

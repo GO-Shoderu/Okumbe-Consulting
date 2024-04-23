@@ -1,5 +1,5 @@
 import "./About.css";
-import aboutImage from "../../../../assets/images/pexels-maarten-van-den-heuvel-4254892.jpg";
+import aboutImage from "../../../../assets/image/pexels-maarten-van-den-heuvel-4254892.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -10,10 +10,10 @@ const About = () => {
   }, []);
 
   return (
-    <div className="container-fluid py-3 mt-5">
+    <div className="container py-3 mt-5">
       <div className="row">
         <div
-          className="col d-none d-lg-flex justify-content-center px-5"
+          className="col d-none d-xl-flex justify-content-center px-5"
           data-aos="flip-left"
           data-aos-duration="500"
         >
@@ -32,7 +32,7 @@ const About = () => {
           data-aos-duration="1500"
         >
           <div className="card bg-light">
-            <div className="card-body text-center text-lg-start">
+            <div className="card-body text-center text-xl-start">
               <h2 className="card-title text-primary">ABOUT US</h2>
               <br />
               <p className="card-text">
