@@ -1,5 +1,11 @@
+import Home from "./pages/Home/Home";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="bg-light">
+      <Home />
+    </div>
+  );
 }
 
 export default App;
