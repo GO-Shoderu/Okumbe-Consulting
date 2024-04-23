@@ -5,7 +5,7 @@ const Nav = () => {
     <nav className="navbar navbar-expand-lg py-3">
       <div className="container-fluid mx-5">
         <a href="./" className="navbar-brand">
-          Okumbe Consulting
+          OKUMBE CONSULTING
         </a>
 
         <button
