@@ -1,5 +1,5 @@
 import Nav from "../constant/Nav";
-import Hero from "./Hero";
+import Hero from "./sections/Hero/Hero";
 
 const Home = () => {
   return (
