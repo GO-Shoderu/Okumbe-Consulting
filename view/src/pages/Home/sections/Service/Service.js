@@ -79,7 +79,12 @@ const Service = () => {
         ))}
       </div>
       <br />
-      <div className="text-center">
+      <div
+        className="text-center"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="800"
+      >
         <a href="./" className="btn btn-primary ">
           More
         </a>
