@@ -1,12 +1,12 @@
-.hero {
+.aboutHero {
   position: relative;
-  background-image: url("../../../../assets/image/pexels-rdne-5922202.jpg");
+  background-image: url("../../../../assets/image/pexels-tima-miroshnichenko-6614837.jpg");
   background-size: cover;
   background-position: top;
-  height: 80vh;
+  height: 50vh;
 }
 
-.hero-overlay {
+.aboutHero-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -15,7 +15,7 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.hero-content {
+.aboutHero-content {
   position: absolute;
   top: 50%;
   left: 50%;

@@ -1,5 +1,3 @@
-import Footer from "../constant/Footer/Footer";
-import Nav from "../constant/Nav/Nav";
 import Scroll from "../constant/scroll/Scroll";
 import About from "./sections/About/About";
 import Contact from "./sections/Contact/Contact";
@@ -11,7 +9,6 @@ import Team from "./sections/Team/Team";
 const Home = () => {
   return (
     <div>
-      <Nav />
       <Hero />
       <About />
       <Service />
@@ -19,7 +16,6 @@ const Home = () => {
       <Team />
       <Contact />
       <Scroll />
-      <Footer />
     </div>
   );
 };

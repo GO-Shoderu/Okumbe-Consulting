@@ -1,6 +1,13 @@
 import "./Nav.css";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
+  const [activeLink, setActiveLink] = useState(""); // State to track active link
+
+  const handleNavLinkClick = (link) => {
+    setActiveLink(link); // Update active link state when a link is clicked
+  };
   return (
     <nav className="navbar navbar-expand-lg py-3 sticky-top bg-light">
       <div className="container-fluid mx-xl-5">
@@ -20,34 +27,74 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navmenu">
           <ul className="navbar-nav ms-auto nav-pills nav-fill ">
             <li className="nav-item mx-3">
-              <a href="#home" className="nav-link text-primary">
+              <Link
+                to="/"
+                className={
+                  activeLink === "/"
+                    ? "nav-link active text-primary bg-light"
+                    : "nav-link"
+                }
+                onClick={() => handleNavLinkClick("/")}
+              >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-4 popup-trigger-btn">
-              <a href="#about" className="nav-link">
+              <Link
+                to="/about"
+                className={
+                  activeLink === "/about"
+                    ? "nav-link active text-primary bg-light"
+                    : "nav-link"
+                }
+                onClick={() => handleNavLinkClick("/about")}
+              >
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-4 popup-trigger-btn">
-              <a href="#services" className="nav-link">
+              <Link
+                to="/services"
+                className={
+                  activeLink === "/services"
+                    ? "nav-link active text-primary bg-light"
+                    : "nav-link"
+                }
+                onClick={() => handleNavLinkClick("/services")}
+              >
                 Services
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-4 popup-trigger-btn">
-              <a href="#projects" className="nav-link">
+              <Link
+                to="/projects"
+                className={
+                  activeLink === "/projects"
+                    ? "nav-link active text-primary bg-light"
+                    : "nav-link"
+                }
+                onClick={() => handleNavLinkClick("/projects")}
+              >
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-4 popup-trigger-btn">
-              <a href="#teams" className="nav-link">
+              <Link
+                to="/teams"
+                className={
+                  activeLink === "/teams"
+                    ? "nav-link active text-primary bg-light"
+                    : "nav-link"
+                }
+                onClick={() => handleNavLinkClick("/teams")}
+              >
                 Teams
-              </a>
+              </Link>
             </li>
             <li className="nav-item mx-4 popup-trigger-btn">
-              <a href="#contact" className="nav-link active text-white">
+              <Link to="/contact" className="nav-link text-white active">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
