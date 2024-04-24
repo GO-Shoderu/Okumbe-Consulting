@@ -1,4 +1,5 @@
-import Nav from "../constant/Nav";
+import Footer from "../constant/Footer/Footer";
+import Nav from "../constant/Nav/Nav";
 import About from "./sections/About/About";
 import Hero from "./sections/Hero/Hero";
 import Project from "./sections/Project/Project";
@@ -12,6 +13,7 @@ const Home = () => {
       <About />
       <Service />
       <Project />
+      <Footer />
     </div>
   );
 };
