@@ -7,6 +7,18 @@ import { useEffect } from "react";
 const Team = () => {
   useEffect(() => {
     AOS.init();
+
+    const handleResize = () => {
+      const width = window.innerWidth;
+      const dataAos = width < 1200 ? "fade-up" : "fade-left"; // Example breakpoint at 992px
+
+      document.getElementById("teamDiv").setAttribute("data-aos", dataAos);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
@@ -27,9 +39,10 @@ const Team = () => {
         </div>
         <div
           className="col"
-          data-aos="fade-up"
+          data-aos="fade-left"
           data-aos-easing="linear"
           data-aos-duration="1500"
+          id="teamDiv"
         >
           <div className="card bg-light">
             <div className="card-body text-center text-xl-start">
