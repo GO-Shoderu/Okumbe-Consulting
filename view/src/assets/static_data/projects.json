@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "name": "MasterCard",
+      "address": "3517 W. Gray St. Utica, Pennsylvania 57867",
+      "country": "Saint Vincent and the Grenadines"
+    },
+    {
+      "name": "eBay",
+      "address": "1901 Thornridge Cir. Shiloh, Hawaii 81063",
+      "country": "Bahrain"
+    },
+    {
+      "name": "The Walt Disney Company",
+      "address": "2972 Westheimer Rd. Santa Ana, Illinois 85486",
+      "country": "Iran (Islamic Republic of)"
+    },
+    {
+      "name": "Louis Vuitton",
+      "address": "2715 Ash Dr. San Jose, South Dakota 83475",
+      "country": "Guinea"
+    },
+    {
+      "name": "Starbucks",
+      "address": "1901 Thornridge Cir. Shiloh, Hawaii 81063",
+      "country": "Georgia"
+    },
+    {
+      "name": "IBM",
+      "address": "2464 Royal Ln. Mesa, New Jersey 45463",
+      "country": "Afghanistan"
+    }
+  ]
+}

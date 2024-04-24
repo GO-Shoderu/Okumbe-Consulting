@@ -25,27 +25,27 @@ const Nav = () => {
               </a>
             </li>
             <li className="nav-item mx-4 popup-trigger-btn">
-              <a href="#my-bio" className="nav-link">
+              <a href="#about" className="nav-link">
                 About
               </a>
             </li>
             <li className="nav-item mx-4 popup-trigger-btn">
-              <a href="#projects" className="nav-link">
+              <a href="#services" className="nav-link">
                 Services
               </a>
             </li>
             <li className="nav-item mx-4 popup-trigger-btn">
-              <a href="#certificates" className="nav-link">
+              <a href="#projects" className="nav-link">
                 Projects
               </a>
             </li>
             <li className="nav-item mx-4 popup-trigger-btn">
-              <a href="#certificates" className="nav-link">
+              <a href="#teams" className="nav-link">
                 Teams
               </a>
             </li>
             <li className="nav-item mx-4 popup-trigger-btn">
-              <a href="#certificates" className="nav-link active text-white">
+              <a href="#contact" className="nav-link active text-white">
                 Contact
               </a>
             </li>

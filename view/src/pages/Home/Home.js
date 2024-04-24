@@ -1,6 +1,7 @@
 import Nav from "../constant/Nav";
 import About from "./sections/About/About";
 import Hero from "./sections/Hero/Hero";
+import Project from "./sections/Project/Project";
 import Service from "./sections/Service/Service";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <About />
       <Service />
+      <Project />
     </div>
   );
 };
