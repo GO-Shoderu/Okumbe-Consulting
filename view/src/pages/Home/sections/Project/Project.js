@@ -8,6 +8,7 @@ import "./Project.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   useEffect(() => {
@@ -82,9 +83,9 @@ const Project = () => {
         data-aos-easing="linear"
         data-aos-duration="800"
       >
-        <a href="./" className="btn btn-primary ">
+        <Link to="/project" className="btn btn-primary ">
           More
-        </a>
+        </Link>
       </div>
     </div>
   );

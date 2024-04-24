@@ -1,4 +1,3 @@
-import Scroll from "../constant/scroll/Scroll";
 import About from "./sections/About/About";
 import Contact from "./sections/Contact/Contact";
 import Hero from "./sections/Hero/Hero";
@@ -15,7 +14,6 @@ const Home = () => {
       <Project />
       <Team />
       <Contact />
-      <Scroll />
     </div>
   );
 };
