@@ -14,7 +14,7 @@ const About = () => {
       <div className="row">
         <div
           className="col d-none d-xl-flex justify-content-center px-5"
-          data-aos="flip-left"
+          data-aos="zoom-in-up"
           data-aos-duration="500"
         >
           <img
