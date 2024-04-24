@@ -23,7 +23,8 @@ const About = () => {
 
   return (
     <div className="container py-3 mt-5">
-      <div className="row">
+      <h2 className="text-primary text-center">ABOUT US</h2>
+      <div className="row mt-5">
         <div
           className="col d-none d-xl-flex justify-content-center px-5"
           data-aos="zoom-in-up"
@@ -46,7 +47,7 @@ const About = () => {
         >
           <div className="card bg-light">
             <div className="card-body text-center text-xl-start">
-              <h2 className="card-title text-primary">ABOUT US</h2>
+              <h5 className="card-title text-primary">WHO WE ARE</h5>
               <br />
               <p className="card-text">
                 Okumbe Consulting (Pty) Ltd is a trusted provider of cost
