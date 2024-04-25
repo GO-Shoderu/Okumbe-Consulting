@@ -29,7 +29,7 @@ const Service = () => {
       >
         OUR SERVICES
       </h2>
-      <div className="row">
+      <div className="row justify-content-center">
         {data.services.slice(0, numOfServices).map((service, iter) => (
           <div
             className="col-sm-12 col-md-6 col-lg-4 mt-4"

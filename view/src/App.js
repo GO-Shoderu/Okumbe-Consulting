@@ -1,5 +1,6 @@
 import AboutUS from "./pages/AboutUs/AboutUS";
 import Home from "./pages/Home/Home";
+import Services from "./pages/Services/Services";
 import Footer from "./pages/constant/Footer/Footer";
 import Nav from "./pages/constant/Nav/Nav";
 import Scroll from "./pages/constant/scroll/Scroll";
@@ -14,6 +15,7 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<AboutUS />} />
+          <Route path="/service" element={<Services />} />
         </Routes>
         <Scroll />
         <Footer />

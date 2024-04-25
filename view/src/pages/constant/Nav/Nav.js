@@ -54,7 +54,7 @@ const Nav = () => {
             </li>
             <li className="nav-item mx-4 popup-trigger-btn">
               <Link
-                to="/services"
+                to="/service"
                 className={
                   activeLink === "/services"
                     ? "nav-link active text-primary bg-light"
@@ -92,7 +92,15 @@ const Nav = () => {
               </Link>
             </li>
             <li className="nav-item mx-4 popup-trigger-btn">
-              <Link to="/contact" className="nav-link text-white active">
+              <Link
+                to="/contact"
+                className={
+                  activeLink === "/contact"
+                    ? "nav-link active text-primary bg-light"
+                    : "nav-link"
+                }
+                onClick={() => handleNavLinkClick("/contact")}
+              >
                 Contact
               </Link>
             </li>

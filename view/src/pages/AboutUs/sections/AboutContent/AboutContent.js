@@ -28,13 +28,13 @@ const AboutContent = () => {
   }, []);
   return (
     <div className="container-fluid py-3 mt-3">
-      <h2
+      {/* <h2
         className="text-primary text-center"
         data-aos="fade-up"
         data-aos-duration="500"
       >
         WHO WE ARE
-      </h2>
+      </h2> */}
       <div className="row mt-5">
         <div
           className="col d-none d-xl-flex justify-content-center px-5 image-container"
@@ -125,10 +125,10 @@ const AboutContent = () => {
             className="text-center text-xl-start"
             data-aos="fade-up"
             data-aos-easing="linear"
-            data-aos-duration="800"
+            data-aos-duration="2000"
           >
             <Link to="/team" className="btn btn-primary ">
-              More
+              Team
             </Link>
           </div>
         </div>
