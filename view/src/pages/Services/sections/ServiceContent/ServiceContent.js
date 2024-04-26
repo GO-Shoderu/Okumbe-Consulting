@@ -1,7 +1,15 @@
 import data from "../../../../assets/static_data/services.json";
+
 import img_1 from "../../../../assets/image/scott-graham-5fNmWej4tAA-unsplash.jpg";
 import img_2 from "../../../../assets/image/cytonn-photography-GJao3ZTX9gU-unsplash.jpg";
 import img_3 from "../../../../assets/image/pexels-tima-miroshnichenko-6693656.jpg";
+
+import img_4 from "../../../../assets/image/pexels-yan-krukau-7691694.jpg";
+import img_5 from "../../../../assets/image/pexels-ketut-subiyanto-4623463.jpg";
+import img_6 from "../../../../assets/image/pexels-pavel-danilyuk-7869306.jpg";
+
+import img_7 from "../../../../assets/image/pexels-olly-3760067.jpg";
+import img_8 from "../../../../assets/image/pexels-august-de-richelieu-4427611.jpg";
 
 import "./ServiceContent.css";
 
@@ -45,6 +53,41 @@ const ServiceContent = () => {
               {iter === 2 && (
                 <img
                   src={img_3}
+                  className="card-img-top"
+                  alt={service.name + " image"}
+                />
+              )}
+              {iter === 3 && (
+                <img
+                  src={img_4}
+                  className="card-img-top"
+                  alt={service.name + " image"}
+                />
+              )}
+              {iter === 4 && (
+                <img
+                  src={img_5}
+                  className="card-img-top"
+                  alt={service.name + " image"}
+                />
+              )}
+              {iter === 5 && (
+                <img
+                  src={img_6}
+                  className="card-img-top"
+                  alt={service.name + " image"}
+                />
+              )}
+              {iter === 6 && (
+                <img
+                  src={img_7}
+                  className="card-img-top"
+                  alt={service.name + " image"}
+                />
+              )}
+              {iter === 7 && (
+                <img
+                  src={img_8}
                   className="card-img-top"
                   alt={service.name + " image"}
                 />
