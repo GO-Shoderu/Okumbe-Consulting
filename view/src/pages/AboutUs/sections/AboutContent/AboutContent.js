@@ -1,5 +1,5 @@
 import React from "react";
-// import data from "../../../../assets/static_data/about.json";
+import data from "../../../../assets/static_data/about.json";
 import aboutImageOkumbe from "../../../../assets/image/pexels-thisisengineering-3862377.jpg";
 import "./AboutContent.css";
 
@@ -9,14 +9,26 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const AboutContent = () => {
-  // const { overview, mission, approach, team } = data.aboutOkumbeConsulting;
+  const aboutOkumbeConsulting = data["aboutOkumbeConsulting"];
+
+  const sections = Object.entries(aboutOkumbeConsulting).map(([key, value]) => (
+    <div
+      key={key}
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="500"
+    >
+      <h2 className="text-primary text-capitalize">{key}</h2>
+      <p>{value}</p>
+    </div>
+  ));
 
   useEffect(() => {
     AOS.init();
 
     const handleResize = () => {
       const width = window.innerWidth;
-      const dataAos = width < 1200 ? "fade-up" : "fade-left"; // Example breakpoint at 992px
+      const dataAos = width < 1200 ? "fade-up" : "fade-left";
 
       document.getElementById("aboutOkumDiv").setAttribute("data-aos", dataAos);
     };
@@ -54,72 +66,7 @@ const AboutContent = () => {
           data-aos-duration="1500"
           id="aboutOkumDiv"
         >
-          <div
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="500"
-          >
-            <h2 className="text-primary">Overview</h2>
-            <p>
-              Okumbe Consulting (Pty) Ltd is a trusted provider of cost
-              consulting services, specializing in quantity surveying and
-              project management. Established in 2010 by Dr. James Ouko Okumbe,
-              a distinguished Fellow Chartered Quantity Surveyor, our company
-              was founded to meet the increasing need for professional quantity
-              surveying services in the construction industry.
-            </p>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="900"
-          >
-            <h2 className="text-primary">Mission</h2>
-            <p>
-              Driven by a passion for excellence and a commitment to delivering
-              unparalleled service, Okumbe Consulting has earned a reputation
-              for reliability, accuracy, and innovation. Over the years, we have
-              successfully completed numerous projects, ranging from small-scale
-              renovations to large-scale infrastructure developments, earning
-              the trust and loyalty of our clients.
-            </p>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1200"
-          >
-            <h2 className="text-primary">Approach</h2>
-            <p>
-              At Okumbe Consulting, we understand the complexities of the
-              construction industry and the challenges our clients face. That's
-              why we take a collaborative approach, working closely with each
-              client to understand their unique needs and objectives. From
-              estimating and cost advice to project management and dispute
-              resolution, we offer a comprehensive suite of services designed to
-              streamline the construction process and maximize value for our
-              clients.
-            </p>
-          </div>
-
-          <div
-            data-aos="fade-up"
-            data-aos-easing="linear"
-            data-aos-duration="1500"
-          >
-            <h2 className="text-primary">Team</h2>
-            <p>
-              Our team consists of highly skilled and experienced professionals,
-              including chartered quantity surveyors, project managers, and
-              technical experts, who bring a wealth of knowledge and expertise
-              to every project. With a commitment to professionalism, integrity,
-              and excellence, we strive to exceed our clients' expectations and
-              deliver results that stand the test of time.
-            </p>
-          </div>
-
+          {sections}
           <br />
           <div
             className="text-center text-xl-start"

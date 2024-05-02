@@ -1,0 +1,22 @@
+.image-container-teams {
+  width: 396px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.cropped-image-teams {
+  width: 396px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.socials {
+  /* margin-top: 10px; */
+  fill: lightgray;
+}
+
+.socials:hover {
+  fill: #1463f3;
+  cursor: pointer;
+  transition: fill 1s;
+}

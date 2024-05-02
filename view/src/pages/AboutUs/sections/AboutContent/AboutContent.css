@@ -1,11 +1,15 @@
 .image-container {
-  width: 350px; /* Set your desired width */
-  height: 800px; /* Set your desired height */
-  overflow: hidden; /* Hide overflow to crop the image */
+  width: 350px;
+  height: 800px;
+  overflow: hidden;
 }
 
 .cropped-image {
-  width: 100%; /* Ensure the image fills the container */
-  object-fit: cover; /* Crop the image while maintaining aspect ratio */
-  object-position: top; /* Position the image at the top */
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
 }
