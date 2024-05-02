@@ -153,7 +153,14 @@ const TeamsContent = () => {
                   </div>
 
                   <br />
-                  <button className="btn btn-primary mb-5">Read more</button>
+                  <button
+                    className="btn btn-primary mb-5"
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="600"
+                  >
+                    Read more
+                  </button>
                 </div>
               </div>
             </div>
@@ -293,7 +300,14 @@ const TeamsContent = () => {
                   </div>
                 </div>
                 <br />
-                <button className="btn btn-primary mb-3">Read more</button>
+                <button
+                  className="btn btn-primary mb-3"
+                  data-aos="fade-up"
+                  data-aos-easing="linear"
+                  data-aos-duration="600"
+                >
+                  Read more
+                </button>
               </div>
             </div>
           </div>
