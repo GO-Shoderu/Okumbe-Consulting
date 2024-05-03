@@ -64,7 +64,7 @@ const Team = () => {
                 data-aos-easing="linear"
                 data-aos-duration="800"
               >
-                <Link to="/team" className="btn btn-primary ">
+                <Link to="/teams" className="btn btn-primary ">
                   More
                 </Link>
               </div>
