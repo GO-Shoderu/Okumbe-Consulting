@@ -1,0 +1,16 @@
+.image-container-teams {
+  width: 396px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.cropped-image-teams {
+  width: 396px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.socials-contactUs {
+  /* margin-top: 10px; */
+  fill: lightgray;
+}
