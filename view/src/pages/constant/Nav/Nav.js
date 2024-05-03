@@ -1,6 +1,8 @@
 import "./Nav.css";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+// import logo from "../../../assets/logo/horizontal_logo_transparent.png";
+import logo from "../../../assets/logo/logo_icon_transparent.png";
 
 const Nav = () => {
   const [activeLink, setActiveLink] = useState(""); // State to track active link
@@ -11,9 +13,13 @@ const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg py-3 sticky-top bg-light">
       <div className="container-fluid mx-xl-5">
-        <a href="./" className="navbar-brand">
-          OKUMBE CONSULTING
-        </a>
+        <div>
+          <a href="./" className="navbar-brand">
+            {/* <img src={logo} width={160} height={20} alt="okumbe logo" /> */}
+            <img src={logo} width={20} height={20} alt="okumbe logo" /> OKUMBE
+            CONSULTING
+          </a>
+        </div>
 
         <button
           className="navbar-toggler custom-toggler"
