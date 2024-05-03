@@ -15,7 +15,7 @@ const Nav = () => {
       <div className="container-fluid mx-xl-5">
         <div>
           <a href="./" className="navbar-brand">
-            {/* <img src={logo} width={160} height={20} alt="okumbe logo" /> */}
+            {/* <img src={logo} height={20} alt="okumbe logo" /> */}
             <img src={logo} width={20} height={20} alt="okumbe logo" /> OKUMBE
             CONSULTING
           </a>
