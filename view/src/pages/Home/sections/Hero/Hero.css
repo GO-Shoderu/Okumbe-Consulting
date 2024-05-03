@@ -1,4 +1,4 @@
-.hero {
+.hero-hero {
   position: relative;
   background-image: url("../../../../assets/image/pexels-rdne-5922202.jpg");
   background-size: cover;
@@ -6,7 +6,7 @@
   height: 80vh;
 }
 
-.hero-overlay {
+.hero-hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -15,7 +15,7 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.hero-content {
+.hero-hero-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -26,4 +26,9 @@
 .custom-toggler .navbar-toggler-icon {
   width: 1.2rem;
   height: 1.2rem;
+}
+
+.heroImage {
+  width: 75%;
+  height: 75%;
 }

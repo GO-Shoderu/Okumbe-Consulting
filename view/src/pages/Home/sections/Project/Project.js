@@ -1,7 +1,7 @@
 import data from "../../../../assets/static_data/projects.json";
-import img_1 from "../../../../assets/image/pexels-pixabay-273250.jpg";
-import img_2 from "../../../../assets/image/pexels-pixabay-415980.jpg";
-import img_3 from "../../../../assets/image/pexels-expect-best-323780.jpg";
+import img_1 from "../../../../assets/image/Picture1.jpg";
+import img_2 from "../../../../assets/image/Picture3.jpg";
+import img_3 from "../../../../assets/image/Picture5.png";
 
 import "./Project.css";
 
@@ -64,8 +64,8 @@ const Project = () => {
                 <h6 className="card-title text-primary text-uppercase">
                   {project.name}
                 </h6>
-                <p className="card-text flex-grow-1">{project.address}</p>
-                <p className="card-text flex-grow-1">{project.country}</p>
+                <p className="card-text flex-grow-1">{project.goal}</p>
+                <p className="card-text flex-grow-1">{project.price}</p>
                 {/* <div className="text-center text-sm-start">
                   <a href="./" className="btn btn-primary ">
                     Read More

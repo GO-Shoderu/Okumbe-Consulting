@@ -8,6 +8,8 @@ import Nav from "./pages/constant/Nav/Nav";
 import Scroll from "./pages/constant/scroll/Scroll";
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Okumbe from "./pages/Teams/Okumbe";
+import Mathematise from "./pages/Teams/Mathematise";
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
           <Route path="/service" element={<Services />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/okumbe" element={<Okumbe />} />
+          <Route path="/mathematise" element={<Mathematise />} />
         </Routes>
         <Scroll />
         <Footer />

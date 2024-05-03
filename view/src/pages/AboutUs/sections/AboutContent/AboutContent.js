@@ -74,7 +74,7 @@ const AboutContent = () => {
             data-aos-easing="linear"
             data-aos-duration="2000"
           >
-            <Link to="/team" className="btn btn-primary ">
+            <Link to="/teams" className="btn btn-primary ">
               Team
             </Link>
           </div>

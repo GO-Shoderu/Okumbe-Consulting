@@ -7,7 +7,7 @@ import "./TeamsContent.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const TeamsContent = () => {
   useEffect(() => {
@@ -153,14 +153,16 @@ const TeamsContent = () => {
                   </div>
 
                   <br />
-                  <button
-                    className="btn btn-primary mb-5"
+                  <div
+                    className="mb-5"
                     data-aos="fade-up"
                     data-aos-easing="linear"
                     data-aos-duration="600"
                   >
-                    Read more
-                  </button>
+                    <Link to="/okumbe" className="btn btn-primary ">
+                      Read more
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -300,14 +302,17 @@ const TeamsContent = () => {
                   </div>
                 </div>
                 <br />
-                <button
-                  className="btn btn-primary mb-3"
+
+                <div
+                  className="mb-5"
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="600"
                 >
-                  Read more
-                </button>
+                  <Link to="/mathematise" className="btn btn-primary ">
+                    Read more
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
