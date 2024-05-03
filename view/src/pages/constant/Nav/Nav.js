@@ -14,10 +14,9 @@ const Nav = () => {
     <nav className="navbar navbar-expand-lg py-3 sticky-top bg-light">
       <div className="container-fluid mx-xl-5">
         <div>
-          <a href="./" className="navbar-brand">
-            {/* <img src={logo} height={20} alt="okumbe logo" /> */}
-            <img src={logo} width={20} height={20} alt="okumbe logo" /> OKUMBE
-            CONSULTING
+          <a href="./" className="navbar-brand d-flex align-items-center">
+            <img src={logo} width={20} height={20} alt="okumbe logo" />
+            <span className="ms-2">OKUMBE CONSULTING</span>
           </a>
         </div>
 
