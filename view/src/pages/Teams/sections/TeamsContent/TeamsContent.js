@@ -65,12 +65,12 @@ const TeamsContent = () => {
                       >
                         {" "}
                         {/* email */}
-                        <span class="socials-spacing">
+                        <span className="socials-spacing">
                           <a href="./" target="_blank" rel="noreferrer">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 512 512"
-                              class="socials"
+                              className="socials"
                               width="32px"
                               height="32px"
                             >
@@ -88,12 +88,12 @@ const TeamsContent = () => {
                       >
                         {" "}
                         {/* linkedin */}
-                        <span class="socials-spacing">
+                        <span className="socials-spacing">
                           <a href="./" target="_blank" rel="noreferrer">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 448 512"
-                              class="socials"
+                              className="socials"
                               width="32px"
                               height="32px"
                             >
@@ -111,12 +111,12 @@ const TeamsContent = () => {
                       >
                         {" "}
                         {/* twitter */}
-                        <span class="socials-spacing">
+                        <span className="socials-spacing">
                           <a href="./" target="_blank" rel="noreferrer">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 448 512"
-                              class="socials"
+                              className="socials"
                               width="32px"
                               height="32px"
                             >
@@ -134,12 +134,12 @@ const TeamsContent = () => {
                       >
                         {" "}
                         {/* instagram */}
-                        <span class="socials-spacing">
+                        <span className="socials-spacing">
                           <a href="./" target="_blank" rel="noreferrer">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 448 512"
-                              class="socials"
+                              className="socials"
                               width="32px"
                               height="32px"
                             >
@@ -212,12 +212,12 @@ const TeamsContent = () => {
                       >
                         {" "}
                         {/* email */}
-                        <span class="socials-spacing">
+                        <span className="socials-spacing">
                           <a href="./" target="_blank" rel="noreferrer">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 512 512"
-                              class="socials"
+                              className="socials"
                               width="32px"
                               height="32px"
                             >
@@ -235,12 +235,12 @@ const TeamsContent = () => {
                       >
                         {" "}
                         {/* linkedin */}
-                        <span class="socials-spacing">
+                        <span className="socials-spacing">
                           <a href="./" target="_blank" rel="noreferrer">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 448 512"
-                              class="socials"
+                              className="socials"
                               width="32px"
                               height="32px"
                             >
@@ -258,12 +258,12 @@ const TeamsContent = () => {
                       >
                         {" "}
                         {/* twitter */}
-                        <span class="socials-spacing">
+                        <span className="socials-spacing">
                           <a href="./" target="_blank" rel="noreferrer">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 448 512"
-                              class="socials"
+                              className="socials"
                               width="32px"
                               height="32px"
                             >
@@ -281,12 +281,12 @@ const TeamsContent = () => {
                       >
                         {" "}
                         {/* instagram */}
-                        <span class="socials-spacing">
+                        <span className="socials-spacing">
                           <a href="./" target="_blank" rel="noreferrer">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 448 512"
-                              class="socials"
+                              className="socials"
                               width="32px"
                               height="32px"
                             >
