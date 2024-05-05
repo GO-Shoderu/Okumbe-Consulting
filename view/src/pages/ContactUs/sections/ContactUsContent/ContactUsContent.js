@@ -34,9 +34,9 @@ const ContactUsContent = () => {
             width="550"
             height="400"
             style={{ border: "0" }}
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
             className="rounded map"
           ></iframe>
         </div>
@@ -227,7 +227,7 @@ const ContactUsContent = () => {
                     style={{ height: "140px" }}
                     placeholder="query"
                   ></textarea>
-                  <label for="query">Your message...</label>
+                  <label htmlFor="query">Your message...</label>
                 </div>
                 <div
                   className="mb-4 text-center"

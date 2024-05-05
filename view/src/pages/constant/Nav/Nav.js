@@ -3,12 +3,13 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 // import logo from "../../../assets/logo/horizontal_logo_transparent.png";
 import logo from "../../../assets/logo/logo_icon_transparent.png";
+// import "../../../assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js";
 
 const Nav = () => {
-  const [activeLink, setActiveLink] = useState(""); // State to track active link
+  const [activeLink, setActiveLink] = useState("");
 
   const handleNavLinkClick = (link) => {
-    setActiveLink(link); // Update active link state when a link is clicked
+    setActiveLink(link);
   };
   return (
     <nav className="navbar navbar-expand-lg py-3 sticky-top bg-light">
@@ -24,12 +25,15 @@ const Nav = () => {
           className="navbar-toggler custom-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navmenu"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Expand Navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse" id="navmenu">
+        <div className="collapse navbar-collapse" id="navMenu">
           <ul className="navbar-nav ms-auto nav-pills nav-fill ">
             <li className="nav-item mx-3">
               <Link
@@ -44,7 +48,7 @@ const Nav = () => {
                 Home
               </Link>
             </li>
-            <li className="nav-item mx-4 popup-trigger-btn">
+            <li className="nav-item mx-4">
               <Link
                 to="/about"
                 className={
@@ -57,7 +61,7 @@ const Nav = () => {
                 About
               </Link>
             </li>
-            <li className="nav-item mx-4 popup-trigger-btn">
+            <li className="nav-item mx-4">
               <Link
                 to="/service"
                 className={
@@ -70,7 +74,7 @@ const Nav = () => {
                 Services
               </Link>
             </li>
-            <li className="nav-item mx-4 popup-trigger-btn">
+            <li className="nav-item mx-4">
               <Link
                 to="/projects"
                 className={
@@ -83,7 +87,7 @@ const Nav = () => {
                 Projects
               </Link>
             </li>
-            <li className="nav-item mx-4 popup-trigger-btn">
+            <li className="nav-item mx-4">
               <Link
                 to="/teams"
                 className={
@@ -96,7 +100,7 @@ const Nav = () => {
                 Teams
               </Link>
             </li>
-            <li className="nav-item mx-4 popup-trigger-btn">
+            <li className="nav-item mx-4">
               <Link
                 to="/contact"
                 className={
