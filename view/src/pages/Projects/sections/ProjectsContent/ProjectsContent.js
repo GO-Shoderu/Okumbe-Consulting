@@ -121,6 +121,141 @@ const ProjectsContent = () => {
           </div>
         ))}
       </div>
+
+      {/* Other completed projects ...  */}
+      <div className="row justify-content-center">
+        <h4 className="text-primary text-center mt-5">
+          OTHER COMPLETED PROJECTS
+        </h4>
+        {data.completed_projects_without_image.map((project) => (
+          <div
+            className="col-sm-12 col-md-6 col-lg-4 mt-4"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration={getRandomValue().toString()}
+            key={project.name}
+          >
+            <div className="card  h-100 d-flex flex-column bg-body-secondary">
+              <div className="card-body d-flex flex-column">
+                <h6 className="card-title text-primary text-uppercase">
+                  {project.name}
+                </h6>
+                <p className="card-text flex-grow-1">{project.goal}</p>
+
+                <h6 className="card-title text-uppercase">
+                  <b>Contracted to:</b>
+                </h6>
+                <p className="card-text flex-grow-1">
+                  <i>
+                    Okumbe Consulting Quantity Surveyors <br /> Trinity
+                    Consulting Quantity Surveyours & Associate
+                  </i>
+                </p>
+                <p className="card-text flex-grow-1">
+                  <b>{project.price}</b>
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Ongoing projects */}
+      <div className="row justify-content-center">
+        <h2 className="text-primary text-center mt-5">ONGOING PROJECTS</h2>
+        {data.ongoing_projects.map((project, iter) => (
+          <div
+            className="col-sm-12 col-md-6 col-lg-4 mt-4"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration={getRandomValue().toString()}
+            key={project.name}
+          >
+            <div className="card  h-100 d-flex flex-column bg-body-secondary">
+              {iter === 0 && (
+                <img
+                  src={img_1}
+                  className="card-img-top"
+                  alt={project.name + " image"}
+                />
+              )}
+              {iter === 1 && (
+                <img
+                  src={img_2}
+                  className="card-img-top"
+                  alt={project.name + " image"}
+                />
+              )}
+              {iter === 2 && (
+                <img
+                  src={img_3}
+                  className="card-img-top"
+                  alt={project.name + " image"}
+                />
+              )}
+              {iter === 3 && (
+                <img
+                  src={img_4}
+                  className="card-img-top"
+                  alt={project.name + " image"}
+                />
+              )}
+              {iter === 4 && (
+                <img
+                  src={img_5}
+                  className="card-img-top"
+                  alt={project.name + " image"}
+                />
+              )}
+              {iter === 5 && (
+                <img
+                  src={img_6}
+                  className="card-img-top"
+                  alt={project.name + " image"}
+                />
+              )}
+              {iter === 6 && (
+                <img
+                  src={img_7}
+                  className="card-img-top"
+                  alt={project.name + " image"}
+                />
+              )}
+              {iter === 7 && (
+                <img
+                  src={img_8}
+                  className="card-img-top"
+                  alt={project.name + " image"}
+                />
+              )}
+              <div className="card-body d-flex flex-column">
+                <h6 className="card-title text-primary text-uppercase">
+                  {project.name}
+                </h6>
+                <p className="card-text flex-grow-1">{project.goal}</p>
+
+                <h6 className="card-title text-uppercase">
+                  <b>Contracted to:</b>
+                </h6>
+                <p className="card-text flex-grow-1">
+                  <i>
+                    Okumbe Consulting Quantity Surveyors <br /> Trinity
+                    Consulting Quantity Surveyours & Associate
+                  </i>
+                </p>
+                <p className="card-text flex-grow-1">
+                  <b>{project.price}</b>
+                </p>
+                {/* <div className="text-center text-sm-start">
+                  <a href="./" className="btn btn-primary ">
+                    Read More
+                  </a>
+                </div> */}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
       <br />
       <div
         className="text-center"
