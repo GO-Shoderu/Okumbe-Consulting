@@ -111,7 +111,7 @@ const Project = () => {
         data-aos-easing="linear"
         data-aos-duration="800"
       >
-        <Link to="/project" className="btn btn-primary ">
+        <Link to="/projects" className="btn btn-primary ">
           More
         </Link>
       </div>
