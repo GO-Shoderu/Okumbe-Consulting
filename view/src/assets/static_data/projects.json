@@ -1,15 +1,34 @@
 {
-  "projects": [
+  "completed_projects": [
     {
       "name": "Ellisras Hospital",
       "goal": "Upgrade Building and Refurbishment: Conversion of change rooms into Mental Health Care Unit (MHCU)",
       "price": "R 70M"
     },
     {
-      "name": "Ellisras Hospital:",
+      "name": "Charlotte Maxete Hospital",
       "goal": "Renovations to Doctors’ and Nurses’ staff Quarters",
-      "price": "R100M"
+      "price": "R199M"
+    }
+  ],
+  "completed_projects_without_image": [
+    {
+      "name": "Mahlabathen Community Library",
+      "goal": "Construction of Mahlabathen Community Library",
+      "price": "R14.7M"
     },
+    {
+      "name": "Mahlabathen Community Library (Zamani)",
+      "goal": "Construction of Mahlabathen Community Library",
+      "price": "R15M"
+    },
+    {
+      "name": "Mahlabathen Community Library (Maphalle)",
+      "goal": "Construction of Mahlabathen Community Library",
+      "price": "R17M"
+    }
+  ],
+  "ongoing_projects": [
     {
       "name": "Rooiwal",
       "goal": "Waste Water Treatment Plant Project",

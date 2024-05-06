@@ -1,7 +1,7 @@
 import data from "../../../../assets/static_data/projects.json";
 
 import img_1 from "../../../../assets/image/Picture1.jpg";
-import img_2 from "../../../../assets/image/Picture3.jpg";
+import img_2 from "../../../../assets/image/unnamed (2).jpg";
 import img_3 from "../../../../assets/image/Picture5.png";
 
 import img_4 from "../../../../assets/image/pexels-yan-krukau-7691694.jpg";
@@ -28,7 +28,7 @@ const ProjectsContent = () => {
     <div className="container py-3 mt-4 bg-light">
       <div className="row justify-content-center">
         <h2 className="text-primary text-center">COMPLETED PROJECTS</h2>
-        {data.projects.map((project, iter) => (
+        {data.completed_projects.map((project, iter) => (
           <div
             className="col-sm-12 col-md-6 col-lg-4 mt-4"
             data-aos="fade-up"
@@ -99,12 +99,12 @@ const ProjectsContent = () => {
                 </h6>
                 <p className="card-text flex-grow-1">{project.goal}</p>
 
-                <h6 className="card-title text-primary text-uppercase">
-                  Contracted to:
+                <h6 className="card-title text-uppercase">
+                  <b>Contracted to:</b>
                 </h6>
                 <p className="card-text flex-grow-1">
                   <i>
-                    Okumbe Consulting Quantity Serveyors <br /> Trinity
+                    Okumbe Consulting Quantity Surveyors <br /> Trinity
                     Consulting Quantity Surveyours & Associate
                   </i>
                 </p>
