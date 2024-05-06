@@ -9,8 +9,8 @@ import Scroll from "./pages/constant/scroll/Scroll";
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Okumbe from "./pages/Teams/Okumbe";
-import Mathematise from "./pages/Teams/Mathematise";
 import Projects from "./pages/Projects/Projects";
+import Matheatsie from "./pages/Teams/Matheatsie";
 
 const App = () => {
   return (
@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/service" element={<Services />} />
           <Route path="/teams" element={<Teams />} />
           <Route path="/okumbe" element={<Okumbe />} />
-          <Route path="/mathematise" element={<Mathematise />} />
+          <Route path="/matheatsie" element={<Matheatsie />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<ContactUs />} />
         </Routes>

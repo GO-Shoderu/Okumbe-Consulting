@@ -27,7 +27,14 @@ const ProjectsContent = () => {
   return (
     <div className="container py-3 mt-4 bg-light">
       <div className="row justify-content-center">
-        <h2 className="text-primary text-center">COMPLETED PROJECTS</h2>
+        <h2
+          className="text-primary text-center"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        >
+          COMPLETED PROJECTS
+        </h2>
         {data.completed_projects.map((project, iter) => (
           <div
             className="col-sm-12 col-md-6 col-lg-4 mt-4"
@@ -124,7 +131,12 @@ const ProjectsContent = () => {
 
       {/* Other completed projects ...  */}
       <div className="row justify-content-center">
-        <h4 className="text-primary text-center mt-5">
+        <h4
+          className="text-primary text-center mt-5"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        >
           OTHER COMPLETED PROJECTS
         </h4>
         {data.completed_projects_without_image.map((project) => (
@@ -162,7 +174,14 @@ const ProjectsContent = () => {
 
       {/* Ongoing projects */}
       <div className="row justify-content-center">
-        <h2 className="text-primary text-center mt-5">ONGOING PROJECTS</h2>
+        <h2
+          className="text-primary text-center mt-5"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        >
+          ONGOING PROJECTS
+        </h2>
         {data.ongoing_projects.map((project, iter) => (
           <div
             className="col-sm-12 col-md-6 col-lg-4 mt-4"
@@ -209,7 +228,12 @@ const ProjectsContent = () => {
 
       {/* Other ongoing projects ...  */}
       <div className="row justify-content-center">
-        <h4 className="text-primary text-center mt-5">
+        <h4
+          className="text-primary text-center mt-5"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+        >
           OTHER ONGOING PROJECTS
         </h4>
         {data.ongoing_projects_without_image.map((project) => (

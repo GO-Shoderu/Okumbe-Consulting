@@ -11,17 +11,44 @@ import { Link } from "react-router-dom";
 const AboutContent = () => {
   const aboutOkumbeConsulting = data["aboutOkumbeConsulting"];
 
-  const sections = Object.entries(aboutOkumbeConsulting).map(([key, value]) => (
-    <div
-      key={key}
-      data-aos="fade-up"
-      data-aos-easing="linear"
-      data-aos-duration="500"
-    >
-      <h2 className="text-primary text-capitalize">{key}</h2>
-      <p>{value}</p>
-    </div>
-  ));
+  const sections = Object.entries(aboutOkumbeConsulting).map(([key, value]) =>
+    key === "values" ? (
+      <div
+        key={key}
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="500"
+      >
+        <h2 className="text-primary text-capitalize">{key}</h2>
+        <p>
+          At Okumbe Consulting, our values form the foundation of everything we
+          do. We uphold the highest standards of <b> Professionalism </b> in our
+          interactions with clients and colleagues, ensuring that every project
+          is approached with diligence and expertise. <b> Integrity </b> is at
+          the core of our business, guiding us to always act ethically and
+          transparently in all our endeavors. <b> Confidentiality </b> is
+          paramount, as we prioritize safeguarding sensitive information and
+          maintaining the trust of our clients. We embrace <b> Innovation </b>,
+          continuously seeking creative solutions to challenges and striving for
+          excellence in all aspects of our work. <b> Collaboration </b> is key
+          to our success, as we foster strong partnerships with clients and
+          stakeholders to achieve shared goals. Finally, <b> Fairness </b> is
+          ingrained in our culture, as we promote equality, respect, and justice
+          in every aspect of our operations.
+        </p>
+      </div>
+    ) : (
+      <div
+        key={key}
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="500"
+      >
+        <h2 className="text-primary text-capitalize">{key}</h2>
+        <p>{value}</p>
+      </div>
+    )
+  );
 
   useEffect(() => {
     AOS.init();
