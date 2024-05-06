@@ -30,24 +30,26 @@
   ],
   "ongoing_projects": [
     {
+      "name": "Ellisras Hospital",
+      "goal": "Renovations to Doctors’ and Nurses’ staff Quarters",
+      "price": "R100M"
+    },
+    {
+      "name": "Ellisras Hospital",
+      "goal": "Refurbishments to Ellisras Hospital (Multi-purpose Infrastructure Development)",
+      "price": "R500M"
+    },
+    {
       "name": "Rooiwal",
       "goal": "Waste Water Treatment Plant Project",
       "price": "R110M"
-    },
+    }
+  ],
+  "ongoing_projects_without_image": [
     {
-      "name": "Louis Vuitton",
-      "goal": "2715 Ash Dr. San Jose, South Dakota 83475",
-      "price": "Guinea"
-    },
-    {
-      "name": "Starbucks",
-      "goal": "1901 Thornridge Cir. Shiloh, Hawaii 81063",
-      "price": "Georgia"
-    },
-    {
-      "name": "IBM",
-      "goal": "2464 Royal Ln. Mesa, New Jersey 45463",
-      "price": "Afghanistan"
+      "name": "Laboratory",
+      "goal": "Laboratory Conversion to Staff Accomodation",
+      "price": "R16M"
     }
   ]
 }
