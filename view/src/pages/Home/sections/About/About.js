@@ -1,5 +1,5 @@
 import "./About.css";
-import aboutImage from "../../../../assets/image/pexels-maarten-van-den-heuvel-4254892.jpg";
+import aboutImage from "../../../../assets/image/pexels-pixabay-273250.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -53,16 +53,17 @@ const About = () => {
               <p className="card-text">
                 Okumbe Consulting (Pty) Ltd is a trusted provider of cost
                 consulting services, specializing in quantity surveying and
-                project management. Established in 2010 to address the growing
+                project management. Established in 2015 to address the growing
                 demand for chartered licensed quantity surveying services, we
                 have since built a reputation for excellence and reliability.
               </p>
               <p className="card-text">
-                Okumbe Consulting (Pty) Ltd is a trusted provider of cost
-                consulting services, specializing in quantity surveying and
-                project management. Established in 2010 to address the growing
-                demand for chartered licensed quantity surveying services, we
-                have since built a reputation for excellence and reliability.
+                Driven by a passion for excellence and a commitment to
+                delivering unparalleled service, Okumbe Consulting has earned a
+                reputation for reliability, accuracy, and innovation. Over the
+                years, we have successfully completed numerous projects, ranging
+                from small-scale renovations to large-scale infrastructure
+                developments, earning the trust and loyalty of our clients.
               </p>
               <br />
               <div
