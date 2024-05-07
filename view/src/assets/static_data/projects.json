@@ -3,28 +3,48 @@
     {
       "name": "Ellisras Hospital",
       "goal": "Upgrade Building and Refurbishment: Conversion of change rooms into Mental Health Care Unit (MHCU)",
+      "contract": [
+        "Trinity Consulting Quantity Surveyours",
+        "Okumbe Consulting Quantity Surveyors"
+      ],
       "price": "R 70M"
     },
     {
       "name": "Charlotte Maxete Hospital",
       "goal": "Renovations to Doctors’ and Nurses’ staff Quarters",
-      "price": "R199M"
+      "contract": [
+        "Trinity Consulting Quantity Surveyours & Associates",
+        "Okumbe Consulting Quantity Surveyors"
+      ],
+      "price": "R200M"
     }
   ],
   "completed_projects_without_image": [
     {
       "name": "Mahlabatheng Library",
       "goal": "Construction of Mahlabatheng community library",
+      "contract": [
+        "Trinity QS Consulting",
+        "Okumbe Consulting Quantity Surveyors"
+      ],
       "price": "R14.7M"
     },
     {
       "name": "Zamani Library",
       "goal": "Construction of Zamani community library",
+      "contract": [
+        "Trinity QS Consulting",
+        "Okumbe Consulting Quantity Surveyors"
+      ],
       "price": "R12.9M"
     },
     {
       "name": "Maphalle Library",
       "goal": "Construction of Maphalle community library",
+      "contract": [
+        "Trinity QS Consulting",
+        "Okumbe Consulting Quantity Surveyors"
+      ],
       "price": "R14.3M"
     }
   ],
