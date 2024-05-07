@@ -13,19 +13,19 @@
   ],
   "completed_projects_without_image": [
     {
-      "name": "Mahlabathen Community Library",
-      "goal": "Construction of Mahlabathen Community Library",
+      "name": "Mahlabatheng Library",
+      "goal": "Construction of Mahlabatheng community library",
       "price": "R14.7M"
     },
     {
-      "name": "Mahlabathen Community Library (Zamani)",
-      "goal": "Construction of Mahlabathen Community Library",
-      "price": "R15M"
+      "name": "Zamani Library",
+      "goal": "Construction of Zamani community library",
+      "price": "R12.9M"
     },
     {
-      "name": "Mahlabathen Community Library (Maphalle)",
-      "goal": "Construction of Mahlabathen Community Library",
-      "price": "R17M"
+      "name": "Maphalle Library",
+      "goal": "Construction of Maphalle community library",
+      "price": "R14.3M"
     }
   ],
   "ongoing_projects": [
