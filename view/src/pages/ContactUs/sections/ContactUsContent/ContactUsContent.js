@@ -75,7 +75,11 @@ const ContactUsContent = () => {
                       {" "}
                       {/* linkedin */}
                       <span className="socials-spacing">
-                        <a href="./" target="_blank" rel="noreferrer">
+                        <a
+                          href="https://www.linkedin.com/company/okumbe-consulting-pty-ltd/?viewAsMember=true"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"

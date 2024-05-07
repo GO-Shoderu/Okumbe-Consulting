@@ -111,8 +111,7 @@ const ProjectsContent = () => {
                 </h6>
                 <p className="card-text flex-grow-1">
                   <i>
-                    Okumbe Consulting Quantity Surveyors <br /> Trinity
-                    Consulting Quantity Surveyours & Associate
+                    {project.contract[0]} <br /> {project.contract[1]}
                   </i>
                 </p>
                 <p className="card-text flex-grow-1">
@@ -159,8 +158,7 @@ const ProjectsContent = () => {
                 </h6>
                 <p className="card-text flex-grow-1">
                   <i>
-                    Okumbe Consulting Quantity Surveyors <br /> Trinity
-                    Consulting Quantity Surveyours & Associate
+                    {project.contract[0]} <br /> {project.contract[1]}
                   </i>
                 </p>
                 <p className="card-text flex-grow-1">

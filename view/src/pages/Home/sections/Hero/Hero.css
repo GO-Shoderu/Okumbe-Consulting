@@ -1,6 +1,7 @@
 .hero-hero {
   position: relative;
-  background-image: url("../../../../assets/image/pexels-rdne-5922202.jpg");
+  /* background-image: url("../../../../assets/image/pexels-rdne-5922202.jpg"); */
+  background-image: url("../../../../assets/image/pexels-essow-k-251295-936722.jpg");
   background-size: cover;
   background-position: top;
   height: 80vh;
