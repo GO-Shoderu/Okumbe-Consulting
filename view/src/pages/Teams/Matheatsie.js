@@ -88,7 +88,11 @@ const Matheatsie = () => {
                   {" "}
                   {/* email */}
                   <span className="socials-spacing">
-                    <a href="./" target="_blank" rel="noreferrer">
+                    <a
+                      href="mailto:okumbeconsulting@outlook.com"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512"
