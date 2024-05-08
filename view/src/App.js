@@ -11,6 +11,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Okumbe from "./pages/Teams/Okumbe";
 import Projects from "./pages/Projects/Projects";
 import Matheatsie from "./pages/Teams/Matheatsie";
+import Ecard from "./pages/ECard/Ecard";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/matheatsie" element={<Matheatsie />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/ecard" element={<Ecard />} />
         </Routes>
         <Scroll />
         <Footer />
