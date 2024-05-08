@@ -102,7 +102,11 @@ const ContactUsContent = () => {
                       {" "}
                       {/* twitter */}
                       <span className="socials-spacing">
-                        <a href="./" target="_blank" rel="noreferrer">
+                        <a
+                          href="https://twitter.com/OkumbeQS"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
@@ -125,7 +129,11 @@ const ContactUsContent = () => {
                       {" "}
                       {/* instagram */}
                       <span className="socials-spacing">
-                        <a href="./" target="_blank" rel="noreferrer">
+                        <a
+                          href="https://www.instagram.com/okumbeqs/"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
