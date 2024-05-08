@@ -1,5 +1,5 @@
 import "./Team.css";
-import teamImage from "../../../../assets/image/pexels-pixabay-416405.jpg";
+import teamImage from "../../../../assets/image/team.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";

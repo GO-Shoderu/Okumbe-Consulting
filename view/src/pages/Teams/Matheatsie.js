@@ -1,5 +1,5 @@
 import TeamsHero from "./sections/TeamsHero/TeamsHero";
-import worker_1 from "../../assets/image/okumbe_consulting_worker_1.jpg";
+import worker_1 from "../../assets/image/Tshiamo.jpg";
 
 const Matheatsie = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 // import data from "../../../../assets/static_data/about.json";
 import ceo from "../../../../assets/image/okumbe_consulting_ceo.jpg";
-import worker_1 from "../../../../assets/image/okumbe_consulting_worker_1.jpg";
+import worker_1 from "../../../../assets/image/Tshiamo.jpg";
 import "./TeamsContent.css";
 
 import AOS from "aos";
