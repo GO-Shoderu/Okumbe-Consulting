@@ -11,7 +11,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Okumbe from "./pages/Teams/Okumbe";
 import Projects from "./pages/Projects/Projects";
 import Matheatsie from "./pages/Teams/Matheatsie";
-import Ecard from "./pages/ECard/Ecard";
+import ECard from "./pages/ECard/ECard";
 import Banner from "./pages/constant/Banner/Banner";
 
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
           <Route path="/matheatsie" element={<Matheatsie />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<ContactUs />} />
-          <Route path="/ecard" element={<Ecard />} />
+          <Route path="/ecard" element={<ECard />} />
         </Routes>
         <Scroll />
         <Banner />
