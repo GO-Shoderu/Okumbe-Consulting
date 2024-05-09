@@ -1,4 +1,5 @@
 import About from "./sections/About/About";
+import Banner from "./sections/Banner/Banner";
 import Contact from "./sections/Contact/Contact";
 import Hero from "./sections/Hero/Hero";
 import Project from "./sections/Project/Project";
@@ -14,6 +15,7 @@ const Home = () => {
       <Project />
       <Team />
       <Contact />
+      <Banner />
     </div>
   );
 };
