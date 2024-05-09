@@ -1,11 +1,11 @@
 import React from "react";
-import ASAQS from "../../../../assets/banner/animated-logo.gif";
-import BIARB from "../../../../assets/banner/BIARB_Logo.webp";
-import CIOB from "../../../../assets/banner/CIOB_DESCRIPTOR_LOCKUP_BLUE_RGB_cakgkf.jpg";
-import IBQS from "../../../../assets/banner/IBQS-Logo-Final-Logo_2.webp";
-import MRICS from "../../../../assets/banner/MRICS_logo.png";
-import RICS from "../../../../assets/banner/Rics-Logo.png";
-import SACQSP from "../../../../assets/banner/sacqsp.png";
+import ASAQS from "../../../assets/banner/animated-logo.gif";
+import BIARB from "../../../assets/banner/BIARB_Logo.webp";
+import CIOB from "../../../assets/banner/CIOB_DESCRIPTOR_LOCKUP_BLUE_RGB_cakgkf.jpg";
+import IBQS from "../../../assets/banner/IBQS-Logo-Final-Logo_2.webp";
+import MRICS from "../../../assets/banner/MRICS_logo.png";
+import RICS from "../../../assets/banner/Rics-Logo.png";
+import SACQSP from "../../../assets/banner/sacqsp.png";
 
 const Banner = () => {
   return (
