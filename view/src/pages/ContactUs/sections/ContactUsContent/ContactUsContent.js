@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./ContactUsContent.css";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import toast, { Toaster } from "react-hot-toast";
 // import { Link } from "react-router-dom";
 
 const ContactUsContent = () => {
@@ -11,9 +13,37 @@ const ContactUsContent = () => {
     AOS.init();
   }, []);
   // const getRandomValue = () => (Math.random() < 0.5 ? 1000 : 1500);
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        `${process.env.REACT_APP_SERVICE_ID}`,
+        `${process.env.REACT_APP_TEMPLATE_ID}`,
+        form.current,
+        {
+          publicKey: `${process.env.REACT_APP_PUBLIC_KEY}`,
+        }
+      )
+      .then(
+        () => {
+          toast.success("Email sent to Okumbe Consulting Quantity Surveyors!");
+          console.log("SUCCESS!");
+          form.current.reset();
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
+
   return (
     // <div className="container-fluid py-3 mt-4">
     <div className="container py-3 mt-4 bg-light justify-content-center">
+      <Toaster position="top-center" reverseOrder={true} />
       {/* <h2
         className="text-primary text-center"
         data-aos="fade-up"
@@ -191,13 +221,13 @@ const ContactUsContent = () => {
             data-aos-duration="250"
           >
             <h2>
-              <span className="text-primary">TALK TO US</span>
+              <span className="text-primary">CONTACT US</span>
             </h2>
             <p className="lead">Questions to ask? Send us an email...</p>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-6">
-              <form>
+              <form ref={form} onSubmit={sendEmail}>
                 {/* <label for="email" className="form-label">
                   Email address:
                 </label> */}
@@ -222,6 +252,7 @@ const ContactUsContent = () => {
                   <input
                     type="text"
                     id="email"
+                    name="user_email"
                     className="form-control"
                     placeholder="e.g. mario@example.com"
                   />
@@ -250,6 +281,7 @@ const ContactUsContent = () => {
                   <input
                     type="text"
                     id="name"
+                    name="user_name"
                     className="form-control"
                     placeholder="e.g. Mario"
                   />
@@ -263,6 +295,7 @@ const ContactUsContent = () => {
                   <textarea
                     className="form-control"
                     id="query"
+                    name="user_message"
                     style={{ height: "140px" }}
                     placeholder="query"
                   ></textarea>
