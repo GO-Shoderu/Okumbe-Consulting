@@ -97,7 +97,7 @@ const Nav = () => {
                 }
                 onClick={() => handleNavLinkClick("/teams")}
               >
-                Teams
+                Team
               </Link>
             </li>
             <li className="nav-item mx-4">
