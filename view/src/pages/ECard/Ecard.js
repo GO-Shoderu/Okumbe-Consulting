@@ -1,7 +1,7 @@
 import React from "react";
 import eCard from "../../assets/eCard/eCard.jpg";
 import eCardPdf from "../../assets/eCard/eCard.pdf";
-import "./Ecard.css";
+import "./ECard.css";
 
 const ECard = () => {
   return (
@@ -15,8 +15,6 @@ const ECard = () => {
           />
         </div>
         <div className="col-12 text-center mt-0 pt-0">
-          {" "}
-          {/* Adjust mt-3 based on your desired vertical spacing */}
           <div className="btn-group">
             <a
               href={eCardPdf}
