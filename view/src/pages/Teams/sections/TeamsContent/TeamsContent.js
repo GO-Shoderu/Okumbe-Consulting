@@ -261,7 +261,7 @@ const TeamsContent = () => {
                         {/* email */}
                         <span className="socials-spacing">
                           <a
-                            href="mailto:okumbeconsulting@outlook.com"
+                            href="mailto:tshiamo@okumbeconsulting.co.za"
                             target="_blank"
                             rel="noreferrer"
                           >
