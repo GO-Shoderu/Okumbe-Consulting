@@ -11,7 +11,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Okumbe from "./pages/Teams/Okumbe";
 import Projects from "./pages/Projects/Projects";
 import Matheatsie from "./pages/Teams/Matheatsie";
-import ECard from "./pages/ECard/ECard";
+import ECard from "./pages/ECard/Ecard";
 import Banner from "./pages/constant/Banner/Banner";
 
 const App = () => {

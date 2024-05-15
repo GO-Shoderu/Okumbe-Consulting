@@ -1,7 +1,7 @@
 import React from "react";
 import eCard from "../../assets/eCard/eCard.jpg";
 import eCardPdf from "../../assets/eCard/eCard.pdf";
-import "./ECard.css";
+import "./Ecard.css";
 
 const ECard = () => {
   return (

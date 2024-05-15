@@ -1,6 +1,6 @@
 import "./Nav.css";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 // import logo from "../../../assets/logo/horizontal_logo_transparent.png";
 import logo from "../../../assets/logo/logo_icon_transparent.png";
 // import "../../../assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js";
@@ -113,6 +113,7 @@ const Nav = () => {
                 Contact
               </Link>
             </li>
+            <NavLink to="/ecard" className="hidden-link" />
           </ul>
         </div>
       </div>
