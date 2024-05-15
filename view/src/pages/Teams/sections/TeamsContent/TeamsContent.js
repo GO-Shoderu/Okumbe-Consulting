@@ -21,7 +21,7 @@ const TeamsContent = () => {
           <div className="container-fluid">
             <div className="row">
               <div
-                className="col-xl-4 d-none d-xl-flex justify-content-center image-container-teams rounded-2"
+                className="col-xl col-md-12 d-flex justify-content-center image-container-teams rounded-2"
                 data-aos="zoom-in-up"
                 data-aos-duration="500"
               >
@@ -32,7 +32,7 @@ const TeamsContent = () => {
                 />
               </div>
               <div
-                className="col-xl-8 col-md-12 px-5 text-center text-xl-start h-100"
+                className="col-xl col-md-12 mt-3 mt-md-0 text-center text-xl-start h-100"
                 data-aos="fade-left"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
@@ -217,7 +217,7 @@ const TeamsContent = () => {
           <div className="container-fluid">
             <div className="row">
               <div
-                className="col-xl-4 d-none d-xl-flex justify-content-center image-container-teams rounded-2"
+                className="col-xl col-md-12 d-flex justify-content-center image-container-teams rounded-2"
                 data-aos="zoom-in-up"
                 data-aos-duration="500"
               >
@@ -228,7 +228,7 @@ const TeamsContent = () => {
                 />
               </div>
               <div
-                className="col-xl-8 col-md-12 px-5 text-center text-xl-start h-100"
+                className="col-xl col-md-12 mt-3 mt-md-0 text-center text-xl-start h-100"
                 data-aos="fade-left"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
