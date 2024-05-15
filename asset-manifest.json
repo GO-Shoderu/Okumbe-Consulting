@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.350333df.css",
-    "main.js": "/static/js/main.1e624087.js",
+    "main.css": "/static/css/main.0a49b173.css",
+    "main.js": "/static/js/main.bc0556f7.js",
     "static/js/453.7a8c23ee.chunk.js": "/static/js/453.7a8c23ee.chunk.js",
     "static/media/Tshiamo.jpg": "/static/media/Tshiamo.7dc89a5a271f43ea8acd.jpg",
     "static/media/team.jpg": "/static/media/team.2bfcf97e82b552f632cd.jpg",
@@ -41,12 +41,12 @@
     "static/media/BIARB_Logo.webp": "/static/media/BIARB_Logo.95a082c72e54ae81bd84.webp",
     "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/index.html",
-    "main.350333df.css.map": "/static/css/main.350333df.css.map",
-    "main.1e624087.js.map": "/static/js/main.1e624087.js.map",
+    "main.0a49b173.css.map": "/static/css/main.0a49b173.css.map",
+    "main.bc0556f7.js.map": "/static/js/main.bc0556f7.js.map",
     "453.7a8c23ee.chunk.js.map": "/static/js/453.7a8c23ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.350333df.css",
-    "static/js/main.1e624087.js"
+    "static/css/main.0a49b173.css",
+    "static/js/main.bc0556f7.js"
   ]
 }
