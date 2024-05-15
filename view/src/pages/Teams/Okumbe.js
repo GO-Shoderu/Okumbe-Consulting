@@ -12,7 +12,12 @@ const Okumbe = () => {
           data-aos="zoom-in-up"
           data-aos-duration="500"
         >
-          <img src={ceo} alt="CEO" className="rounded-2 cropped-image-teams" />
+          <img
+            src={ceo}
+            alt="CEO"
+            className="img-fluid rounded-2 cropped-image-teams px-2"
+            style={{ maxWidth: "100%", height: "auto" }}
+          />
         </div>
         <div className="col-12 col-md-12 px-5 text-center h-100">
           <div
@@ -89,7 +94,7 @@ const Okumbe = () => {
             <div className="container px-xl-0 px-5">
               <div className="row justify-content-center">
                 <div
-                  className=" col-1"
+                  className=" col-2 col-md-1"
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="500"
@@ -116,7 +121,7 @@ const Okumbe = () => {
                   </span>
                 </div>{" "}
                 <div
-                  className=" col-1"
+                  className=" col-2 col-md-1"
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="300"
@@ -143,7 +148,7 @@ const Okumbe = () => {
                   </span>
                 </div>{" "}
                 <div
-                  className=" col-1 "
+                  className=" col-2 col-md-1 "
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="500"
@@ -170,7 +175,7 @@ const Okumbe = () => {
                   </span>
                 </div>{" "}
                 <div
-                  className=" col-1 "
+                  className=" col-2 col-md-1 "
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="250"
@@ -197,7 +202,7 @@ const Okumbe = () => {
                   </span>
                 </div>
                 <div
-                  className="col-1 "
+                  className="col-2 col-md-1 "
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="250"

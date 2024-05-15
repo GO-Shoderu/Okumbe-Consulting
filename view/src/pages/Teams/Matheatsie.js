@@ -13,8 +13,9 @@ const Matheatsie = () => {
         >
           <img
             src={worker_1}
-            alt="CEO"
-            className="rounded-2 cropped-image-teams"
+            alt="colleague"
+            className="img-fluid rounded-2 cropped-image-teams px-2"
+            style={{ maxWidth: "100%", height: "auto" }}
           />
         </div>
         <div className="col-12 col-md-12 px-5 text-center h-100">
@@ -80,7 +81,7 @@ const Matheatsie = () => {
             <div className="container px-xl-0 px-5">
               <div className="row justify-content-center">
                 <div
-                  className=" col-1"
+                  className=" col-2 col-md-1"
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="500"
@@ -89,7 +90,7 @@ const Matheatsie = () => {
                   {/* email */}
                   <span className="socials-spacing">
                     <a
-                      href="mailto:okumbeconsulting@outlook.com"
+                      href="mailto:tshiamo@okumbeconsulting.co.za"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -107,7 +108,7 @@ const Matheatsie = () => {
                   </span>
                 </div>{" "}
                 {/* <div
-                  className=" col-1"
+                  className=" col-2 col-md-1"
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="300"
@@ -129,7 +130,7 @@ const Matheatsie = () => {
                   </span>
                 </div>{" "} */}
                 {/* <div
-                  className=" col-1 "
+                  className=" col-2 col-md-1 "
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="500"
@@ -151,7 +152,7 @@ const Matheatsie = () => {
                   </span>
                 </div>{" "} */}
                 {/* <div
-                  className=" col-1 "
+                  className=" col-2 col-md-1 "
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="250"
@@ -173,7 +174,7 @@ const Matheatsie = () => {
                   </span>
                 </div> */}
                 <div
-                  className="col-1 "
+                  className="col-2 col-md-1 "
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="250"
@@ -200,7 +201,7 @@ const Matheatsie = () => {
                   </span>
                 </div>
                 <div
-                  className="col-1 "
+                  className="col-2 col-md-1 "
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="250"
