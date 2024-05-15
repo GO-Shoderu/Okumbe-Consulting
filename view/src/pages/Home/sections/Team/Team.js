@@ -26,20 +26,19 @@ const Team = () => {
     <div className="container py-3 mt-5">
       <div className="row">
         <div
-          className="col d-none d-xl-flex justify-content-center px-5"
+          className="col-xl col-12 justify-content-center d-flex"
           data-aos="zoom-in-up"
           data-aos-duration="500"
         >
           <img
             src={teamImage}
             alt="Team"
-            width={580}
-            height={387}
-            className="rounded"
+            className="img-fluid rounded"
+            style={{ maxWidth: "100%", height: "auto" }}
           />
         </div>
         <div
-          className="col"
+          className="col-xl col-12"
           data-aos="fade-left"
           data-aos-easing="linear"
           data-aos-duration="1500"
