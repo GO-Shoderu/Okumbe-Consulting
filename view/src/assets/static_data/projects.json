@@ -1,7 +1,7 @@
 {
   "completed_projects": [
     {
-      "name": "Ellisras Hospital",
+      "name": "Ellisras Hospital (POLOKWANE)",
       "goal": "Upgrade Building and Refurbishment: Conversion of change rooms into Mental Health Care Unit (MHCU)",
       "contract": [
         "Trinity QS Consulting",
@@ -10,7 +10,7 @@
       "price": "R 70M"
     },
     {
-      "name": "Johannesburg Hospital (Charlotte Maxete)",
+      "name": "Johannesburg Hospital (Charlotte Maxeke)",
       "goal": "Renovations to Doctors’ and Nurses’ Staff Quarters",
       "contract": [
         "Trinity Quantity Surveyors & Associates",
@@ -21,7 +21,7 @@
   ],
   "completed_projects_without_image": [
     {
-      "name": "Mahlabatheng Library",
+      "name": "Mahlabatheng Library (POLOKWANE)",
       "goal": "Construction of Mahlabatheng community library",
       "contract": [
         "Trinity QS Consulting",
@@ -30,7 +30,7 @@
       "price": "R14.7M"
     },
     {
-      "name": "Zamani Library",
+      "name": "Zamani Library (POLOKWANE)",
       "goal": "Construction of Zamani community library",
       "contract": [
         "Trinity QS Consulting",
@@ -39,7 +39,7 @@
       "price": "R12.9M"
     },
     {
-      "name": "Maphalle Library",
+      "name": "Maphalle Library (POLOKWANE)",
       "goal": "Construction of Maphalle community library",
       "contract": [
         "Trinity QS Consulting",
@@ -50,24 +50,24 @@
   ],
   "ongoing_projects": [
     {
-      "name": "Ellisras Hospital",
-      "goal": "Renovations to Doctors’ and Nurses’ staff Quarters",
+      "name": "Ellisras Hospital (POLOKWANE)",
+      "goal": "Renovations to Doctors’ and Nurses’ Staff Quarters",
       "price": "R100M"
     },
     {
-      "name": "Ellisras Hospital",
+      "name": "Ellisras Hospital (POLOKWANE)",
       "goal": "Refurbishments to Ellisras Hospital (Multi-purpose Infrastructure Development)",
       "price": "R500M"
     },
     {
-      "name": "Rooiwal",
+      "name": "Rooiwal (GAUTENG-PRETORIA)",
       "goal": "Waste Water Treatment Plant Project",
       "price": "R110M"
     }
   ],
   "ongoing_projects_without_image": [
     {
-      "name": "Laboratory",
+      "name": "Laboratory (POLOKWANE)",
       "goal": "Laboratory Conversion to Staff Accomodation",
       "price": "R16M"
     }

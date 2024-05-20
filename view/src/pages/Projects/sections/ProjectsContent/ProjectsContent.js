@@ -115,7 +115,7 @@ const ProjectsContent = () => {
                   </i>
                 </p>
                 <p className="card-text flex-grow-1">
-                  <b>{project.price}</b>
+                  <b>Price:</b> {project.price}
                 </p>
                 {/* <div className="text-center text-sm-start">
                   <a href="./" className="btn btn-primary ">
@@ -162,7 +162,7 @@ const ProjectsContent = () => {
                   </i>
                 </p>
                 <p className="card-text flex-grow-1">
-                  <b>{project.price}</b>
+                  <b>Price:</b> {project.price}
                 </p>
               </div>
             </div>
@@ -216,7 +216,7 @@ const ProjectsContent = () => {
                 </h6>
                 <p className="card-text flex-grow-1">{project.goal}</p>
                 <p className="card-text flex-grow-1">
-                  <b>{project.price}</b>
+                  <b>Price:</b> {project.price}
                 </p>
               </div>
             </div>

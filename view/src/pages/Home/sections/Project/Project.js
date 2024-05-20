@@ -48,7 +48,7 @@ const Project = () => {
                 {data.completed_projects[0].goal}
               </p>
               <p className="card-text flex-grow-1">
-                <b>{data.completed_projects[0].price}</b>
+                <b>Price:</b> {data.completed_projects[0].price}
               </p>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Project = () => {
                 {data.ongoing_projects[2].goal}
               </p>
               <p className="card-text flex-grow-1">
-                <b>{data.ongoing_projects[2].price}</b>
+                <b>Price:</b> {data.ongoing_projects[2].price}
               </p>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Project = () => {
                 {data.ongoing_projects[0].goal}
               </p>
               <p className="card-text flex-grow-1">
-                <b>{data.ongoing_projects[0].price}</b>
+                <b>Price:</b> {data.ongoing_projects[0].price}
               </p>
             </div>
           </div>
